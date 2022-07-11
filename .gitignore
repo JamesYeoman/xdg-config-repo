@@ -1,0 +1,8 @@
+*
+!*/
+!.gitignore
+!chromium-flags.conf
+!vim/vimrc
+!terminator/**
+!fsh/**
+!zsh/**

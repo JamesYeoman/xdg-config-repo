@@ -1,0 +1,79 @@
+[global_config]
+  geometry_hinting = True
+  window_state = maximise
+  broadcast_default = off
+  title_use_system_font = False
+  title_font = MesloLGS NF 10
+[keybindings]
+  zoom_in = <Primary>plus
+  zoom_out = <Primary>minus
+  zoom_normal = <Primary>0
+  new_tab = None
+  cycle_next = None
+  cycle_prev = None
+  go_next = None
+  go_prev = None
+  rotate_cw = None
+  rotate_ccw = None
+  split_horiz = <Primary><Alt><Super>h
+  split_vert = <Primary><Alt><Super>v
+  close_term = <Primary>W
+  copy = <Primary><Shift>C
+  paste = <Primary><Shift>V
+  toggle_scrollbar = None
+  search = None
+  close_window = None
+  resize_up = <Primary><Alt><Super>Up
+  resize_down = <Primary><Alt><Super>Down
+  resize_left = <Primary><Alt><Super>Left
+  resize_right = <Primary><Alt><Super>Right
+  move_tab_right = None
+  move_tab_left = None
+  toggle_zoom = None
+  scaled_zoom = None
+  next_tab = None
+  prev_tab = None
+  full_screen = None
+  reset = None
+  reset_clear = None
+  hide_window = None
+  group_all = None
+  ungroup_all = None
+  group_tab = None
+  ungroup_tab = None
+  new_window = None
+  new_terminator = None
+  broadcast_off = None
+  broadcast_group = None
+  broadcast_all = None
+  insert_number = None
+  insert_padded = None
+  edit_window_title = None
+  edit_tab_title = None
+  edit_terminal_title = None
+  layout_launcher = <Alt>L
+  help = None
+[profiles]
+  [[default]]
+    audible_bell = True
+    background_color = "#2e3436"
+    cursor_color = "#aaaaaa"
+    font = MesloLGS NF 13
+    foreground_color = "#eeeeec"
+    scrollback_lines = 2000
+    palette = "#2e3436:#cc0000:#00aa00:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#ffff55:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    use_system_font = False
+  [[New Profile]]
+    cursor_color = "#aaaaaa"
+    font = FiraCode Nerd Font Mono 10
+    scrollback_lines = 2000
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
